@@ -1,0 +1,321 @@
+
+body {
+    color: #222;
+    font-family: "CrimsonRoman", "Times New Roman", Georgia, serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+#day{
+	font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 12px;
+	color:#999999;
+	text-align: left;
+	margin: 27px 0 0 52px;
+	min-width: 1000px;
+}
+div #day{
+	min-width: 1000px;
+
+}
+nav{
+	text-align: right;
+	margin-top: -18px;
+	margin-right: 25px;
+	min-width: 1000px;
+
+}
+nav ul li{
+	display: inline;
+	min-width: 1000px;
+
+}
+nav ul li a{
+	Font-Family:'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size: 13px;
+	text-decoration: none;
+	margin: 15px;
+	min-width: 1000px;
+	color: #369;
+
+}
+a:hover
+{
+	color: #71d4f1;
+}
+
+.sign:hover {
+	color: #369;	
+}
+
+.sign {
+	color: #71d4f1;
+	min-width: 1000px;
+}
+
+#logo{
+	text-align: center;
+	min-width: 1000px;
+	margin-left: 35px;
+	clear: both;
+	
+}
+.middle{
+	font-family: CrimsonSemibold, 'Times New Roman', Georgia, serif;
+	text-align: center;
+	color: #232323;
+	font-size:58px;
+	margin-top: 20px;
+	font-weight: 600;
+	letter-spacing: -2px;
+	min-width: 1000px;
+
+}
+.head{
+	font-family: CrimsonSemibold, 'Times New Roman', Georgia, serif;
+	text-align: center;
+	color: #222222;
+	font-size: 20px;
+	margin-top: 32px;
+	font: bold;
+	font-weight: 500;
+	min-width: 1000px;
+
+}
+.bcheadline{
+	margin: 10px;
+	display: none;
+	width: 925px;
+	height: 163px;
+	top: 40px;
+	background-color: white;
+	text-align: center;
+	margin:0 auto;
+	
+
+}
+.hrheadline{
+	margin: 10px;
+	display: none;
+	width: 925px;
+	height: 163px;
+	top: 70px;
+	background-color: white;
+	text-align: center;
+	margin:0 auto;
+}
+
+.cfheadline{
+	margin: 10px;
+	display: none;
+	width: 925px;
+	height: 163px;
+	top: 70px;
+	background-color: white;
+	text-align: center;
+	margin:0 auto;
+}
+
+
+.alt-head{
+	font-size: 46px;
+	font-weight: 500;
+	font-style: normal;
+	margin-top: 25px;
+	letter-spacing: -1px;
+	color: #232323;
+	text-align: center;
+	width: 925px;
+	height: 200px;
+
+}
+
+.alt-description{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	margin-top: -100px;
+	color: #232323;
+	text-align: center;
+	width: 925px;
+	height: 200px;
+	font-weight: 200;
+}
+
+.alt-name{
+	color: #336699;
+	text-decoration: underline;
+	font-weight: bold;
+	text-align: center;
+}
+
+.arrow-left{
+	position: absolute;
+	top: 325px;
+	left: 285px;
+	
+}
+.arrow-left2{
+	position: absolute;
+	top: 320px;
+	left: 540px;
+	
+}
+.arrow-right{
+	position: absolute;
+	top: 330px;
+	left: 640px;
+	
+
+}
+aside{
+	min-width: 1000px;
+	text-align: center;
+	margin-top: 45px;
+}
+.bc{
+	top: 45px;
+	margin-right: 15px;
+	text-align: center;
+	display: inline-block;
+	height: 270px;
+	width: 200px;
+	border: 1px solid #efefef;
+	padding: 20px;
+    background:linear-gradient(#fefefe, #efefef);
+	border-radius:10px;
+
+}
+.bc img {
+	margin-bottom: 15px;
+
+}	
+
+.bc a{
+	display:block;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
+	color: #336699;
+
+}
+
+.bc h6{
+	font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size:14px;
+	color:#cc0000;
+	margin-bottom:30px;
+	letter-spacing: 1px;
+	font-weight:bold;
+	margin-top:10px;
+}
+.bc p{
+	font-family: 'Lucida Sans Unicode', Verdana, sans-serif;;
+	font-size:12px;
+	color:#222222;
+
+}
+.hr{
+	top: 45px;
+	margin-right: 15px;
+	text-align: center;
+	display: inline-block;
+	height: 270px;
+	width: 200px;
+	border: 1px solid #efefef;
+	padding: 20px;
+    background:linear-gradient(#fefefe, #efefef);
+	border-radius:10px;
+	text-align: center;
+}
+.hr img {
+	margin-bottom: 15px;
+
+}	
+
+.hr a{
+	display:block;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
+	color: #336699;
+
+}
+
+.hr h6{
+font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
+font-size: 14px;
+color: #cc0000;
+margin-top: 10px;
+letter-spacing: 1px;
+font-weight: bold;
+
+	
+}
+.hr p{
+	font-family: 'Lucida Sans Unicode', Verdana, sans-serif;;
+	font-size:12px;
+	color:#222222
+	top: -15px;
+
+}
+.cf{
+	top: 47px;
+	margin-right: 15px;
+	text-align: center;
+	display: inline-block;
+	height: 285px;
+	width: 200px;
+	border: 1px solid #efefef;
+	padding: 14px;
+    background:linear-gradient(#fefefe, #efefef);
+	border-radius:10px;
+}
+.cf img {
+	margin-bottom: 15px;
+
+}	
+
+.cf a{
+	display:block;
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+	font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
+	color: #336699;
+
+}
+
+.cf h6{
+	font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size:14px;
+	color:#cc0000;
+	letter-spacing: 1px;
+	font-weight:bold;
+	
+.cf p{
+	font-family: 'Lucida Sans Unicode', Verdana, sans-serif;
+	font-size:12px;
+	color:#222222;
+}
+
+hr {
+background-image: url('http://37signals.com/images/img-hr.png') no-repeat scroll 50% 50%;
+color: transparent;
+height: 12px;
+
+}
